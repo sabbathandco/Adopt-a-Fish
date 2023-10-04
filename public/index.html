@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Adopt-a-Fish</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Adopt-a-Fish</h1>
+  </header>
+  <section class="main-grid">
+    <div class="hero-box" id="hero-box1">
+      <h2>Fish name: <span id="fish-name"></span></h2>
+      <img id="fish-image" src="" alt="Fish Image">
+      <p>Species: <span id="fish-species"></span></p>
+      <p>Gender: <span id="fish-gender"></span></p>
+      <p>Location: <span id="fish-location"></span></p>
+    </div>
+    <div class="hero-box" id="hero-box2">
+      <div id="chat-box">
+        <div id="chat-messages"></div>
+        <input id="user-input" type="text" placeholder="Type your message...">
+        <button id="send-button">Send</button>
+      </div>
+    </div>
+    
+  </section>
+  <button id="another-fish">Another Fish in the Sea</button>  
+  <!-- New Adopt Me! button linking to the specified URL -->
+  <button id="adopt-me" onclick="window.location.href='https://give.barrierreef.org/donate/plant-a-coral-24'">Adopt Me!</button>
+
+  <div id="logo-container">  <!-- New container div -->
+    <a href="https://give.barrierreef.org/donate/plant-a-coral-24">
+      <img id="reef-logo" src="GBRF.png" alt="Great Barrier Reef Foundation Logo">
+    </a>
+  </div>  
+
+
+  <script src="script.js"></script>
+</body>
+</html>
